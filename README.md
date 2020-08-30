@@ -1,1 +1,1 @@
-# smartc
+# SmartC
