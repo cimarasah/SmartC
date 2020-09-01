@@ -21,3 +21,4 @@ namespace SmartC.ApplicationCore.Entities
         public DateTime DataCriacao { get; set; }
     }
 }
+ 
