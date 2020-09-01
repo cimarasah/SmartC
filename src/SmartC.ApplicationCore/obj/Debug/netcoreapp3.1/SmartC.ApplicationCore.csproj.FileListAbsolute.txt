@@ -1,0 +1,9 @@
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\bin\Debug\netcoreapp3.1\SmartC.ApplicationCore.deps.json
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\bin\Debug\netcoreapp3.1\SmartC.ApplicationCore.dll
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\bin\Debug\netcoreapp3.1\SmartC.ApplicationCore.pdb
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\obj\Debug\netcoreapp3.1\SmartC.ApplicationCore.csprojAssemblyReference.cache
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\obj\Debug\netcoreapp3.1\SmartC.ApplicationCore.AssemblyInfoInputs.cache
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\obj\Debug\netcoreapp3.1\SmartC.ApplicationCore.AssemblyInfo.cs
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\obj\Debug\netcoreapp3.1\SmartC.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\obj\Debug\netcoreapp3.1\SmartC.ApplicationCore.dll
+C:\Projetos\cimarasah\SmartC\src\SmartC.ApplicationCore\obj\Debug\netcoreapp3.1\SmartC.ApplicationCore.pdb
