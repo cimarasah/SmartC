@@ -90,3 +90,6 @@ C:\Projetos\cimarasah\SmartC\src\SmartC.UI.Web\obj\Debug\netcoreapp3.1\staticweb
 C:\Projetos\cimarasah\SmartC\src\SmartC.UI.Web\obj\Debug\netcoreapp3.1\SmartC.UI.Web.dll
 C:\Projetos\cimarasah\SmartC\src\SmartC.UI.Web\obj\Debug\netcoreapp3.1\SmartC.UI.Web.pdb
 C:\Projetos\cimarasah\SmartC\src\SmartC.UI.Web\obj\Debug\netcoreapp3.1\SmartC.UI.Web.genruntimeconfig.cache
+C:\Projetos\cimarasah\smartc\src\SmartC.UI.Web\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Projetos\cimarasah\smartc\src\SmartC.UI.Web\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Projetos\cimarasah\smartc\src\SmartC.UI.Web\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll

@@ -12,6 +12,7 @@ using SmartC.UI.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SmartC.Infrastructure.Data;
 
 namespace SmartC.UI.Web
 {
@@ -34,6 +35,11 @@ namespace SmartC.UI.Web
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+
+            services.AddDbContext<Context>(options =>
+                options.UseMySql(
+                    Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
