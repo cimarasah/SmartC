@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rzc0R69ow1XJPvH3p+e53UXnNEznPBee2RlQ+buek5LZB5Kjc3l3NwtA53sUSsS38cfcFx7593s3XjTtX7Ur2Q==",
+  "dgSpecHash": "eVUKLlrkRpwQqKmA3dxDb//ulynKO54FYM7HAb52mlrKsIaekm6o7S+Jw+J6hZw399LvjZrJ5L93mfeZ4RNVRg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\cimarasah\\smartc\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\AMcom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\AMcom\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\AMcom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -3,49 +3,49 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Ganbatte</title>
+    <title>@ViewData["Title"] - SmartC</title>
     <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" href="~/bootstrap/dist/css/bootstrap.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
 
-    <div class="wrapper">
-        <div class="sidebar">
-            <h2>Ganbatte</h2>
-            <ul>
-                <li><a href="#">Paciente</a></li>
-                <li><a href="#">Agenda</a></li>
-                <li><a href="#">Financeiro</a></li>
-                <li><a href="#">Clínica</a></li>
-            </ul>
-            <div class="social_media">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="wrapper col-2">
+                <div class="sidebar">
+                    <h2>SmartC</h2>
+                    <ul>
+                        <li>@Html.ActionLink("Agenda", "Index", "Sessoes")</li>
+                        <li><a href="#">Agenda</a></li>
+                        <li><a href="#">Financeiro</a></li>
+                        <li><a href="#">Clínica</a></li>
+                    </ul>
+                    <div class="social_media">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="main_content">
-            <div class="header">Welcome!! Have a nice day.</div>
-            <div class="info">
-                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+            <div class="col-10">
+                <main role="main">
+                    @RenderBody()
+                </main>
+                <footer class="border-top footer">
+                    <div class="container">
+                        &copy; 2020 - SmartC - by cimarasah
+                    </div>
+                </footer>
             </div>
         </div>
     </div>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - SmartC.UI.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
 </body>
 </html>

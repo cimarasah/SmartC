@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{61C5A43C-F4ED-489F-927D-24FB37F3F290}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartC.ApplicationCore", "src\SmartC.ApplicationCore\SmartC.ApplicationCore.csproj", "{9036DA38-0BC1-448A-A8BF-A8E994EE4537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartC.ApplicationCore", "src\SmartC.ApplicationCore\SmartC.ApplicationCore.csproj", "{9036DA38-0BC1-448A-A8BF-A8E994EE4537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartC.Infrastructure", "src\SmartC.Infrastructure\SmartC.Infrastructure.csproj", "{D9B639FD-3C33-4FE3-A92B-226CC1914021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartC.Infrastructure", "src\SmartC.Infrastructure\SmartC.Infrastructure.csproj", "{D9B639FD-3C33-4FE3-A92B-226CC1914021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartC.UI.Web", "src\SmartC.UI.Web\SmartC.UI.Web.csproj", "{5BA06B1A-64E2-4504-BCD7-656A5682A38D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartC.UI.Web", "src\SmartC.UI.Web\SmartC.UI.Web.csproj", "{5BA06B1A-64E2-4504-BCD7-656A5682A38D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
