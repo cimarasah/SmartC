@@ -1,22 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EntityConfig\" />
+    <ProjectReference Include="..\SmartC.ApplicationCore\SmartC.ApplicationCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
-    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.21" />
-    <PackageReference Include="MySqlConnector" Version="1.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SmartC.ApplicationCore\SmartC.ApplicationCore.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
   </ItemGroup>
 
 </Project>

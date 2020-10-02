@@ -1,7 +1,5 @@
-﻿using SmartC.ApplicationCore.Enuns;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SmartC.ApplicationCore.Entities
 {
@@ -16,6 +14,6 @@ namespace SmartC.ApplicationCore.Entities
         public double Desconto { get; set; }
         public DateTime DataHora { get; set; }
         public int QuantidadeItens { get; set; }
-        public List<ItemVenda> ItensVenda { get; set; }
+        public IEnumerable<ItemVenda> ItensVenda { get; set; }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 namespace SmartC.ApplicationCore.Entities
 {
     public class Paciente
-    { 
+    {
         public int Id { get; set; }
         public string Nome { get; set; }
         public DateTime DataNascimento { get; set; }
@@ -20,8 +20,8 @@ namespace SmartC.ApplicationCore.Entities
         public bool Ativo { get; set; }
         public DateTime DataCriacao { get; set; }
         public int IdClinica { get; set; }
-        public Clinica Clinica { get; set; }
-        public List<Venda> Vendas { get; set; }
+        public virtual Clinica Clinica { get; set; }
+
+        public IEnumerable<Venda> Vendas { get; set; }
     }
 }
- 

@@ -7,6 +7,6 @@ namespace SmartC.ApplicationCore.Entities
         public int Id { get; set; }
         public string Descricao { get; set; }
 
-        public List<Usuario> Usuarios { get; set; }
+        public virtual IEnumerable<Usuario> Usuarios { get; set; }
     }
 }

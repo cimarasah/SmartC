@@ -1,14 +1,12 @@
 ﻿using SmartC.ApplicationCore.Enuns;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SmartC.ApplicationCore.Entities
 {
     public class Sessao
     {
         public int Id { get; set; }
-        
+
         public int IdProfissional { get; set; }
         public int IdItemVenda { get; set; }
         public virtual ItemVenda ItemVenda { get; set; }

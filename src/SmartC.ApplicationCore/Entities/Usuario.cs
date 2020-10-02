@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace SmartC.ApplicationCore.Entities
+﻿namespace SmartC.ApplicationCore.Entities
 {
     public class Usuario
     {
@@ -11,6 +9,6 @@ namespace SmartC.ApplicationCore.Entities
         public Perfil Perfil { get; set; }
 
 
-        public List<Profissional> Profissionais { get; set; }
+        public virtual Profissional Profissional { get; set; }
     }
 }

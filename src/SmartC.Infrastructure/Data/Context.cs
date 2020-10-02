@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SmartC.ApplicationCore.Entities;
-using SmartC.Infrastructure.Data.Mapeamento;
+using SmartC.Infrastructure.Entity;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +10,9 @@ namespace SmartC.Infrastructure.Data
     public class Context : DbContext
     {
         public Context(DbContextOptions<Context> options) : base(options)
-        {  }
+        {
+
+        }
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Sessao> Sessoes { get; set; }
         public DbSet<Profissional> Profissionais { get; set; }

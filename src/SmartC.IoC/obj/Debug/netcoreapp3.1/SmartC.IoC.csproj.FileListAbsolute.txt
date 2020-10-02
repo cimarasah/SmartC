@@ -1,0 +1,14 @@
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\obj\Debug\netcoreapp3.1\SmartC.IoC.csprojAssemblyReference.cache
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\obj\Debug\netcoreapp3.1\SmartC.IoC.AssemblyInfoInputs.cache
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\obj\Debug\netcoreapp3.1\SmartC.IoC.AssemblyInfo.cs
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\obj\Debug\netcoreapp3.1\SmartC.IoC.csproj.CoreCompileInputs.cache
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\bin\Debug\netcoreapp3.1\SmartC.IoC.deps.json
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\bin\Debug\netcoreapp3.1\SmartC.IoC.dll
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\bin\Debug\netcoreapp3.1\SmartC.IoC.pdb
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\bin\Debug\netcoreapp3.1\SmartC.ApplicationCore.dll
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\bin\Debug\netcoreapp3.1\SmartC.Infrastructure.dll
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\bin\Debug\netcoreapp3.1\SmartC.ApplicationCore.pdb
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\bin\Debug\netcoreapp3.1\SmartC.Infrastructure.pdb
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\obj\Debug\netcoreapp3.1\SmartC.IoC.csproj.CopyComplete
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\obj\Debug\netcoreapp3.1\SmartC.IoC.dll
+C:\Projetos\cimarasah\SmartC\src\SmartC.IoC\obj\Debug\netcoreapp3.1\SmartC.IoC.pdb

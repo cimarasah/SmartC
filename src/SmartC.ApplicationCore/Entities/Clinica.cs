@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace SmartC.ApplicationCore.Entities
 {
     public class Clinica
     {
-       
         public int Id { get; set; }
         public string RazaoSocial { get; set; }
         public string NomeFantasia { get; set; }
@@ -17,8 +18,12 @@ namespace SmartC.ApplicationCore.Entities
         public string Estado { get; set; }
         public string Email { get; set; }
         public string Telefone { get; set; }
-        public List<Paciente> Pacientes { get; set; }
-        public List<Profissional> Profissionais { get; set; }
-        public List<ItemClinica> ItensClinica { get; set; }
+        public bool Ativo { get; set; }
+
+
+        public virtual IEnumerable<Paciente> Pacientes { get; set; }
+        public virtual IEnumerable<Profissional> Profissionais { get; set; }
+        public virtual IEnumerable<ItemClinica> ItensClinica { get; set; }
+        public virtual Caixa Caixa { get; set; }
     }
 }

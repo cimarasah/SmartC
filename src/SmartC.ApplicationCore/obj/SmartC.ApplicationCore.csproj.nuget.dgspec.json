@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\cimarasah\\smartc\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj": {}
+    "C:\\Projetos\\cimarasah\\SmartC\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\cimarasah\\smartc\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj": {
+    "C:\\Projetos\\cimarasah\\SmartC\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\cimarasah\\smartc\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Projetos\\cimarasah\\SmartC\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj",
         "projectName": "SmartC.ApplicationCore",
-        "projectPath": "C:\\Projetos\\cimarasah\\smartc\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj",
+        "projectPath": "C:\\Projetos\\cimarasah\\SmartC\\src\\SmartC.ApplicationCore\\SmartC.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\AMcom\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\cimarasah\\smartc\\src\\SmartC.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Projetos\\cimarasah\\SmartC\\src\\SmartC.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AMcom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -36,7 +36,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -47,20 +47,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

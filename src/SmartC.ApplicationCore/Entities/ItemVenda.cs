@@ -11,6 +11,6 @@ namespace SmartC.ApplicationCore.Entities
         public Venda Venda { get; set; }
         public double Valor { get; set; }
         public int QuantidadeItem { get; set; }
-        public List<Sessao> Sessoes { get; set; }
+        public IEnumerable<Sessao> Sessoes { get; set; }
     }
 }

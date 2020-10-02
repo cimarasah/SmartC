@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace SmartC.ApplicationCore.Entities
 {
@@ -11,7 +13,11 @@ namespace SmartC.ApplicationCore.Entities
         public Clinica Clinica { get; set; }
         public int IdUsuario { get; set; }
         public Usuario Usuario { get; set; }
-        public List<Sessao> Sessoes { get; set; }
-        public List<Venda> Vendas { get; set; }
+
+
+        public IEnumerable<Sessao> Sessoes { get; set; }
+        public IEnumerable<Venda> Vendas { get; set; }
+        public IEnumerable<HorarioProfissional> Horarios { get; set; }
+
     }
 }
